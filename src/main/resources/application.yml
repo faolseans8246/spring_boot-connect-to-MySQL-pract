@@ -1,0 +1,15 @@
+
+server:
+  port: 1371
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/main_connect
+    username: root
+    password: faolseans8246
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
